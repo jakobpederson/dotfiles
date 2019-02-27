@@ -47,3 +47,7 @@ alias .....='cd ../../../..'
 alias ls='ls --color'
 # Empty the trash folder that is created when you delete things as root
 alias root_trash='sudo bash -c "exec rm -r /root/.local/share/Trash/{files,info}/*"'
+export PATH='/usr/local/bin:/usr/local/bin:/Users/imtapps/.virtualenvs/nebula-cmd/bin:/Users/imtapps/.rvm/gems/ruby-2.1.10/bin:/Users/imtapps/.rvm/gems/ruby-2.1.10@global/bin:/Users/imtapps/.rvm/rubies/ruby-2.1.10/bin:/Users/imtapps/.local/bin:/usr/local/heroku/bin:/Users/imtapps/.pyenv/shims:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/imtapps/Projects/go/bin:/Users/imtapps/.rvm/bin:/Users/imtapps/Projects/go/bin'\n
+
+# added by travis gem
+[ -f /Users/imtapps/.travis/travis.sh ] && source /Users/imtapps/.travis/travis.sh

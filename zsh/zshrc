@@ -229,3 +229,6 @@ export PATH=$PATH:$GOPATH/bin
 # >>1
 
 # EOF
+
+# added by travis gem
+[ -f /Users/imtapps/.travis/travis.sh ] && source /Users/imtapps/.travis/travis.sh
